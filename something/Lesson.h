@@ -21,11 +21,11 @@ public:
     ~Lesson();
     Lesson(float time, int room);
     
-    void getTime();
-    void getRoom();
+    float getTime();
+    int getRoom();
     
-    float setTime(float time);
-    int setRoom(int room);
+    void setTime(float time);
+    void setRoom(int room);
     
     void printDate();
 };
