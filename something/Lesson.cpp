@@ -19,7 +19,7 @@ Lesson::Lesson(float time, int room) {
     this->room = room;
     this->time = time;
     
-    cout << "Done" << endl;
+    cout << "Lesson constructor" << endl;
 }
 
 float Lesson::getTime() {
@@ -38,7 +38,7 @@ void Lesson::setRoom(int room) {
     this->room = room;
 }
 
-void Lesson::printDate() {
+void Lesson::printData() {
     cout << "Time - " << this->time << endl;
     cout << "Room - " << this->room << endl;
 }

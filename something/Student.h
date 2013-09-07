@@ -9,11 +9,13 @@
 #ifndef __something__Student__
 #define __something__Student__
 
+class Lesson;
+
 class Student {
 public:
     ~Student();
 
-    Student(int age, int group);
+    Student(int age, int group, float time, int room);
     Student();
     
     void printData();
@@ -26,6 +28,8 @@ public:
 private:
     int age;
     int group;
+    
+    Lesson *lesson;
 };
 
 #endif /* defined(__something__Student__) */

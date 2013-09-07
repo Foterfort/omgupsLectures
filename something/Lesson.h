@@ -27,7 +27,7 @@ public:
     void setTime(float time);
     void setRoom(int room);
     
-    void printDate();
+    void printData();
 };
 
 #endif /* defined(__something__Lesson__) */
